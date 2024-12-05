@@ -1,0 +1,62 @@
+﻿body {
+   /* margin: 0;
+    padding: 0;
+    font-family: montserrat;*/
+}
+@media (max-width:768px) {
+    .prestamo .ingresar .linea .barra .btnbarra {
+        width: 500px;
+    }
+}
+
+.prestamo {
+    width: 10%;
+    height: 40px;
+    position: relative;
+    background: #239B56;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font: bold 12px arial;
+}
+
+.ingresar {
+    width: 5%;
+    height: 40px;
+    background: none;
+    border: none;
+    font: 12px arial;
+}
+
+.linea {
+    top: 1px;
+    height: 40px;
+    width: 0.5px;
+    border: 0px;
+    background-color:#b5b5b5;
+    position: relative;
+}
+
+.barra {
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    height: 40px;
+    background: #239B56;
+    border: none;
+    font: bold 12px arial;
+}
+
+.btnbarra {
+    width: 40%;
+    height: 40px;
+    background: none;
+    border: none;
+    color: white;
+    font: bold 14px arial;
+}
+
+.primer_texto{
+    font: Arial;
+    color: white;
+}
